@@ -2,9 +2,16 @@
   <div id="app">
     <div id="header">
     </div>
-    <div id="body">
-      <img src="./assets/logo.png">
-      <router-view/>
+    <div id="contents">
+      <div id="left">
+        <img src="./assets/logo.png">
+      </div>
+      <div id="content">
+        <router-view/>
+      </div>
+      <div id="right">
+        <img src="./assets/logo.png">
+      </div>
     </div>
   </div>
 </template>

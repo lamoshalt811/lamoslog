@@ -6,8 +6,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-
-    background-color: $color_dark_gray;
+    min-width: 1500px;
 }
 
 #header {
@@ -15,4 +14,23 @@
     background-position: center;
     width: 100%;
     height: 400px;
+}
+
+#contents {
+    display: inline-block;
+}
+
+#left {
+    display: inline-block;
+}
+
+#content {
+    display: inline-block;
+    width:920px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#right {
+    display: inline-block;
 }
