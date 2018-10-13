@@ -3,9 +3,6 @@
     <div id="header">
     </div>
     <div id="contents">
-      <div id="left">
-        <img src="./assets/logo.png">
-      </div>
       <div id="content">
         <router-view/>
       </div>
