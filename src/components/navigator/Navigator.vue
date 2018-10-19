@@ -1,16 +1,14 @@
 <template>
-  <div id="app">
-    <Navigator/>
-    <router-view/>
+  <div id="navigator">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Navigator'
 }
 </script>
 
 <style lang="scss" scoped>
-@import './App.scss'
+@import './Navigator.scss'
 </style>
